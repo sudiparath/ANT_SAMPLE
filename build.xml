@@ -1,13 +1,16 @@
-<project name="HiiWorld" basedir="." default="main">
+<project name="HelloWorld" basedir="." default="main">
 
-<property name="src.dir"  value="F:\Practise"/>
-<property name="build.dir"  value="build" />
-<property name="classes.dir"   value="${build.dir}/classes"/>
-<property name="jar.dir"    value="${build.dir}/jar"/>
+    <property name="src.dir"     value="C:\Users\Sudipa\ANT_SUDIPA\ANT_SAMPLE"/>
 
-<property name="main-class" value="HiiWorld"/>
+    <property name="build.dir"   value="build"/>
+    <property name="classes.dir" value="${build.dir}/classes"/>
+    <property name="jar.dir"     value="${build.dir}/jar"/>
 
- <target name="clean">
+    <property name="main-class"  value="HelloWorld"/>
+
+
+
+    <target name="clean">
         <delete dir="${build.dir}"/>
     </target>
 
