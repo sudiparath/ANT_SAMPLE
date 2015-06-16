@@ -9,6 +9,12 @@ return k;
 
 } 
 
+public static int substract(int a,int b)
+{
+int c= a-b;
+System.out.println("substraction is " +c);
+return c;
+}
 
-   
+
 }
