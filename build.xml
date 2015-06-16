@@ -1,6 +1,6 @@
 <project name="HelloWorld" basedir="." default="main">
 
-    <property name="src.dir"     value="C:\Users\Sudipa\ANT_SUDIPA\ANT_SAMPLE"/>
+    <property name="src.dir"     value="./"/>
 
     <property name="build.dir"   value="build"/>
     <property name="classes.dir" value="${build.dir}/classes"/>
